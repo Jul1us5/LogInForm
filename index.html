@@ -4,8 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/form.css">
+    <link rel="stylesheet" href="./style/custom.css">
 </head>
 <body>
-    
+    <div class="background-image"></div>
+    <div class="container">
+        <div class="left">
+            <h1>Sign up</h1>
+            <footer>
+                <a href="#">Privacy policy</a>
+                <span>&</span>
+                <a href="#">Terms of service</a>
+            </footer>
+        </div>
+        <div class="right">
+            <div class="x">
+                <img src="./img/close.png" alt="#">
+            </div>
+            <form>
+                <div class="form-row">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" value="KS Arts">    
+                </div>
+                <div class="form-row">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" value="Julius.vlasovas@gmail.com">    
+                </div>
+                <div class="form-row">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" value="*********">    
+                </div>
+                <div class="form-row">
+                    <label for="re-password">Repeat password</label>
+                    <input type="password" name="re-password" value="*********">    
+                </div>
+                <div class="form-row">
+                    <div class="btn">Get started</div>
+                    <span class="black">or</span>
+                    <a href="#" class="black">Sign in</a>    
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
